@@ -23,5 +23,5 @@ class Gold(object):
         except requests.exceptions.Timeout:
             return 'Bad Response'
 
-#obj1 = Gold()
-#print(obj1.get)
+obj1 = Gold()
+print(obj1.get)
