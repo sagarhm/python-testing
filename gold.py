@@ -10,7 +10,7 @@ class Gold(object):
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
             'Referer': 'http://www.wikipedia.org/',
             'Connection': 'keep-alive'}
-        self.url = " https://data-asg.goldprice.org/dbXRates/USD"
+        self.url = "https://atg.world/"
 
     @property
     def get(self):
